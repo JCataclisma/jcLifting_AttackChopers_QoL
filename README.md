@@ -27,3 +27,9 @@ Its expected result is to perfectly center the gatling gun crosshair to the pilo
 The action will temporarily create a fake/invisible gunner, make it center the aiming and disappear. You might need to execute it twice or more times, eventually.
 It will NOT work if there is any troops (player or A.I.) sitting on gunner slot, because that will forbid the script to put the fake gunner in there.
 Once you click it
+
+RECRUIT/DISMISS AI GUNNER:
+This one explains itself: it recruits a PERMANENT gunner for your gunship. They will remain there until the "end", meaning:
+-the group leader tells them to disembark;
+-the "dismiss" action is clicked;
+-the gunner is shot down.
